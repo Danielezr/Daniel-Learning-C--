@@ -5,7 +5,7 @@
 using namespace std;
 
 int main(){
-    int arreglo[3][3] = {
+    int arreglo1[3][3] = {
         {1,2,3},
         {4,5,6},
         {7,8,9}
@@ -14,13 +14,13 @@ int main(){
     cout << "Arreglo original: " << endl;
     for(int i = 0; i < 3; i++){
         for(int j = 0; j < 3; j++){
-            cout << arreglo[i][j] << " ";
+            cout << arreglo1[i][j] << " ";
         }
         cout << endl;
     }
     for(int i = 0; i < 3; i++){
         for(int j = 0; j < 3; j++){
-            arregloTrans[i][j] = arreglo[j][i];
+            arregloTrans[i][j] = arreglo1[j][i];
         }
     } 
     cout << "Arreglo transpuesto: " << endl;       
