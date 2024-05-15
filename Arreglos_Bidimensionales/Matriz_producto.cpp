@@ -38,7 +38,7 @@ int main(){
         }
     }
 
-    cout << "\tEl resultado es: ";
+    cout << "El resultado es: ";
     cout << endl;
     //Bucle para imprimir el producto de ambos arreglos
     for(int i = 0; i < filas; i++){
