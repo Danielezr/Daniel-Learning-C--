@@ -6,7 +6,7 @@ int main(){
     int x;
     bool primo = true;
 
-    cout << "\nIngresa un numero: ";
+    cout << "Ingresa un numero: ";
     cin >> x;
 
     if(x == 2){
