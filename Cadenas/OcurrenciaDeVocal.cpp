@@ -20,7 +20,6 @@ int main(){
             case 'u': vocal_u++; break;
         }
     }
-
     cout << "Vocal a: " << vocal_a << endl;
     cout << "Vocal e: " << vocal_e << endl;
     cout << "Vocal o: " << vocal_o << endl;
